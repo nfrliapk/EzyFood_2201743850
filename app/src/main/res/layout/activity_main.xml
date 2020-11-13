@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Binus EzyFoody"
+        android:textColor="#039BE5"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/myOrderBtn"
+            android:text="MY ORDER"
+            app:backgroundTint="#039BE5"
+            android:layout_marginLeft="210dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:id="@+id/drinksBtn"
+            android:text="drinks"
+            app:backgroundTint="#039BE5" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:text="Snacks"
+            app:backgroundTint="#039BE5"
+            android:id="@+id/snacksBtn"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:text="foods"
+            app:backgroundTint="#039BE5"
+            android:id="@+id/foodsBtn"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:text="top up"
+            app:backgroundTint="#039BE5"
+            android:id="@+id/topupBtn"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
